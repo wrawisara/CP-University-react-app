@@ -1,0 +1,164 @@
+
+/* LoginForm.js */
+div.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  background-color: #b7e0d4;
+}
+
+form.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  background-color:#ffffff;
+}
+
+.login-form h1  {
+  font-weight: 600;
+  font-size: 50px;
+  background-color: #54ab88;
+  background-image: linear-gradient(90deg, #54ab88 ,#4daaa0,#6598a1);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.login-form h2{
+  font-size: 30px;
+  color:#50aa40 ;
+}
+
+input.input-login {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.07);
+  border-radius: 3px;
+  border-width: 1.5px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+input.input-submit{
+
+  width: 100%;
+  background-color: #d6d6e0;
+  color: #080710;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 450;
+  border-radius: 50px;
+  cursor: pointer;
+  border: transparent;
+  border-color: #d6d6e0;
+}
+
+.btn-signup{
+
+  width: 100%;
+  background-color: transparent;
+  color: #080710;
+  font-size: 18px;
+  font-weight: 450;
+  cursor: pointer;
+  border: transparent;
+}
+
+
+
+
+/* Register.js */
+div.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  background-color: #b7e0d4;
+}
+
+.register-form h1  {
+  font-weight: 600;
+  font-size: 50px;
+  background-color: #54ab88;
+  background-image: linear-gradient(90deg, #54ab88 ,#4daaa0,#6598a1);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.register-form h2{
+  font-size: 30px;
+  color:#50aa40 ;
+}
+input.input-register {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.07);
+  border-radius: 3px;
+  border-width: 1.5px;
+  padding: 0 40px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+input.input-password {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.07);
+  border-radius: 3px;
+  border-width: 1.5px;
+  padding: 0 40px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+
+.btn-register{
+  margin-top: 20px;
+  width: 100%;
+  background-color: #d6d6e0;
+  color: #080710;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 450;
+  border-radius: 50px;
+  cursor: pointer;
+  border: transparent;
+  border-color: #d6d6e0;
+}
+.btn-backtologin{
+  width: 100%;
+  background-color: transparent;
+  color: #080710;
+  font-size: 18px;
+  font-weight: 450;
+  cursor: pointer;
+  border: transparent;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
