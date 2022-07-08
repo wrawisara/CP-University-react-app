@@ -1,8 +1,13 @@
 .App {
     text-align: center;
   }
-  
-  .App-logo {
+
+:root {
+  --green: #4daaa0;
+  --activeItem: #98dcd3 ;
+}  
+
+  /* .App-logo {
     height: 40vmin;
     pointer-events: none;
   }
@@ -35,5 +40,5 @@
     to {
       transform: rotate(360deg);
     }
-  }
+  } */
   

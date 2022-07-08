@@ -162,3 +162,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Dashboard.js */
+/* div.Dashboard{
+  background: linear-gradient(
+    106.37deg,
+    #54ab88 29.63% ,
+    #4daaa0 51.55%,
+    #6598a1 90.85%
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+div.dashboardGlass{
+  display: grid;
+  height: 97%;
+  width: 97%;
+  border-radius: 2rem;
+  background-color: rgba( 255, 255, 255, 0.4 );
+  overflow: hidden;
+  grid-template-columns: 11rem auto 20rem;
+} */

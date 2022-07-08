@@ -10,7 +10,6 @@ function LoginForm() {
   const submitHandler = (event) => {
     event.preventDefault();
     Login(details);
-    /* เอาไป check ใน fn Login App.js  */
   };
 
   const adminUser = {
@@ -51,7 +50,7 @@ function LoginForm() {
         <section>
           <div className="login-form">
             <form className="form" onSubmit={submitHandler}>
-            <h1>CP university </h1>
+            <h1>CP university</h1>
             <h2>Log In</h2>
             <br/>
               <div className="form-inner">

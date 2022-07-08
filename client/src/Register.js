@@ -11,21 +11,21 @@ function Register() {
 
   const [registerList, setRegisterList] = useState([]);
 
-  const getRegister = () => {
-    Axios.get("http://localhost:3001/registers").then((response) => {
-      setRegisterList(response.data);
-    });
+  const getRegister = async() => {
+    const response = await Axios.get("http://localhost:3001/registers")
+    setRegisterList(response.data);
+    
   };
 
-  const addRegister = () =>
-    Axios.post("http://localhost:3001/create", {
+  const addRegister = async() =>{
+     const response = await Axios.post("http://localhost:3001/create", {
       firstName: firstName,
       lastName: lastName,
       email: email,
       password: password,
       confirmPassword: confirmPassword,
-    }).then(() => [
-      setRegisterList([
+    })
+    setRegisterList([
         ...registerList,
         {
           firstName: firstName,
@@ -34,8 +34,11 @@ function Register() {
           password: password,
           confirmPassword: confirmPassword,
         },
-      ]),
-    ]);
+      ])
+  }
+  
+  
+    
 
       
 

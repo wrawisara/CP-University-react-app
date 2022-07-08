@@ -6,17 +6,19 @@ import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LoginForm from "./LoginForm";
 import Dashboard from "./Dashboard";
+import Topbar from "./components/Topbar";
 
 function App() {
 
   return (
-    <div className="wrapper">
+    <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LoginForm />}></Route>
+        <Route path="/" element={< Dashboard/>}></Route>
+          {/* <Route path="/" element={<LoginForm />}></Route>
           <Route path="/login" element={<LoginForm />}></Route>
           <Route path="/register" element={<Register />}></Route>
-          <Route path="/dashboard" element={<Dashboard />}></Route>
+          <Route path="/dashboard" element={<Dashboard />}></Route> */}
         </Routes>
       </BrowserRouter>
     </div>
